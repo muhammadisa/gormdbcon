@@ -18,13 +18,12 @@ type IDatabase interface {
 
 // DBCredential struct
 type DBCredential struct {
-	DBDriver     string
-	DBHost       string
-	DBPort       string
-	DBUser       string
-	DBPassword   string
-	DBName       string
-	DBSqlitePath string
+	DBDriver   string
+	DBHost     string
+	DBPort     string
+	DBUser     string
+	DBPassword string
+	DBName     string
 }
 
 // Connect connect to selected database dialect
